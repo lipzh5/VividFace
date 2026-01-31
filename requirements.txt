@@ -1,0 +1,26 @@
+pyzmq
+torch
+# conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=12.1 -c pytorch -c nvidia
+transformers
+aiohttp
+# action generation
+openai
+# face recognition-insightface
+onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
+#onnxruntime-gpu  # cuda11.8,  or onnxruntime for cpu only inference, ref: https://onnxruntime.ai/docs/install/
+insightface
+# llama3
+# cd llama3 and pip install -e .
+
+fairscale
+fire
+tiktoken # ==0.4.0
+blobfile
+
+# rag
+langchain-community
+langchain-huggingface
+langchain-openai
+faiss-gpu
+# facial expression shadowing
+tyro
